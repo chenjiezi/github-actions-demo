@@ -10,7 +10,7 @@ on:
     branches: '*'
 
 jobs:
-  quality:
+  publish:
 
     runs-on: ubuntu-latest
 
@@ -36,4 +36,9 @@ jobs:
 
     - name: Build
       run: pnpm run build
+
+    - name: pnpm run semantic-release
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
