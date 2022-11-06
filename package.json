@@ -14,7 +14,8 @@
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "semantic-release": "semantic-release --branches main",
-    "commit": "cz"
+    "commit": "cz",
+    "acp": "git add . && nr commit && git push"
   },
   "dependencies": {
     "vue": "^3.2.41"
