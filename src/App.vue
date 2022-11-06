@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
-import TheWelcome from "./components/TheWelcome.vue";
+import HelloWorld from './components/HelloWorld.vue'
+import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
@@ -11,10 +11,10 @@ import TheWelcome from "./components/TheWelcome.vue";
       src="./assets/logo.svg"
       width="125"
       height="125"
-    />
+    >
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="I Love You" />
     </div>
   </header>
 
