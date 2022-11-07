@@ -1,6 +1,6 @@
 {
   "name": "github-actions-demo-cjz",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "pnpm@7.12.1",
   "repository": {
     "type": "git",
