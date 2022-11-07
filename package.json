@@ -1,6 +1,6 @@
 {
   "name": "github-actions-demo-cjz",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/chenjiezi/github-actions-demo.git"
@@ -30,6 +30,7 @@
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/eslint-config-typescript": "^11.0.0",
     "@vue/tsconfig": "^0.1.3",
+    "bumpp": "^8.2.1",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.3.0",
